@@ -1,0 +1,80 @@
+[
+    {
+      "race": "Asian",
+      "values": [
+        {
+          "gender": "Male",
+          "num": 19
+        },
+        {
+          "gender": "Female",
+          "num": 0
+        }
+      ]
+    },
+    {
+        "race": "Black",
+        "values": [
+          {
+            "gender": "Male",
+            "num": 364
+          },
+          {
+            "gender": "Female",
+            "num": 13
+          }
+        ]
+    },
+    {
+        "race": "Hispanic",
+        "values": [
+          {
+            "gender": "Male",
+            "num": 241
+          },
+          {
+            "gender": "Female",
+            "num": 5
+          }
+        ]
+    },
+    {
+        "race": "Native",
+        "values": [
+          {
+            "gender": "Male",
+            "num": 18
+          },
+          {
+            "gender": "Female",
+            "num": 1
+          }
+        ]
+    },
+    {
+        "race": "Other",
+        "values": [
+          {
+            "gender": "Male",
+            "num": 8
+          },
+          {
+            "gender": "Female",
+            "num": 2
+          }
+        ]
+    },
+    {
+        "race": "White",
+        "values": [
+          {
+            "gender": "Male",
+            "num": 705
+          },
+          {
+            "gender": "Female",
+            "num": 46
+          }
+        ]
+    }
+]
