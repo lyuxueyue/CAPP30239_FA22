@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total-Shot-Number-by-Race</title>
+    <style>
+        svg {
+            width: 60%;
+            height: 85vh;
+        }
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #container {
+        max-width: 800px;
+        margin: 0 auto;
+        }
+
+        a { color: #369;}
+
+        text {
+        font-size: 5px;
+        text-transform: uppercase;
+        }
+
+        .y-axis path.domain { 
+        display: none; 
+        }
+
+        .y-axis line {
+        stroke: #eee;
+        stroke-dasharray: 1px;
+        }
+
+        .race { cursor: default; }
+        
+        .race path {
+        stroke-width: 1.5;
+        opacity: 0.75;
+        }
+
+        .highlight path {
+        stroke: steelblue;
+        opacity: 1;
+        }
+
+        .highlight text { fill: steelblue; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Total Shot Number by Race</h1>
+        <p>This bar plot shows the distribution of people who were shot and killed by police officier in race in Year 2015.
+        </p>
+        <p>Bar plot is a common choice for mapping the distribution of different groups in the population.</p>
+        <div id="chart1"></div>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="bar.js"></script>
+    </div>
+    <div class="container">
+        <h1>Shot Number Monthly Change by Race</h1>
+        <p>This line plot shows the monthly change in the proportion of people shot and killed by police officier by race in Year 2015.
+        </p>
+        <p>Here the race group of 'Other' is taken off from the original dataset for better visualization. It basically has no influence on understanding.</p>
+        <div id="chart2"></div>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="line.js"></script>
+    </div>
+    <div class="container">
+        <h1>Gender Distribution of Shot by Race</h1>
+        <p>This ring chart shows the gender distribution of people from different races shot and killed by police officier in Year 2015.
+        </p>
+        <p>Ring chart is a powerful tool to present the differences in the distribution among multiple groups.</p>
+        <div id="chart3" class="ring"></div>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="ring.js"></script>
+      </div>
+</body>
+</html>
