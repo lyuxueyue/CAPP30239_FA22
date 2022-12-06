@@ -52,7 +52,8 @@ var ratio_2020 = d3.map();
 
 // Load external data and boot
 d3.queue()
-    .defer(d3.json, "http://enjalot.github.io/wwsd/data/world/world-110m.geojson")
+    .defer(d3.json, "data/worldmap.json")
+    // .defer(d3.json, "http://enjalot.github.io/wwsd/data/world/world-110m.geojson")
     .defer(d3.csv, "data/data_p3.csv", function(d) { data.set(d.iso3, +d.ratio_2021); 
         Country.set(d.iso3, d.Country);
         ratio_2019.set(d.iso3, +d.ratio_2019);
