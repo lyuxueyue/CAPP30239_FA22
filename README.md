@@ -1,11 +1,11 @@
 # CAPP30239_FA22
 
-<h1>Final Project: Covid-19 Impact on Renewable Electricity</h1>
+<h1><a href="https://lyuxueyue.github.io/CAPP30239_FA22/final_project/">Final Project</a>: Covid-19 Impact on Renewable Electricity</h1>
 <h2>Intro of the final project</h2>
-<li>Find index.html here </li>
-<li>Find css folder here</li>
-<li>Find js folder here</li>
-<li>Find data folder here</li>
+<li>Find index.html <a href="https://github.com/lyuxueyue/CAPP30239_FA22/blob/main/final_project/index.html">here</a></li>
+<li>Find css folder <a href="https://github.com/lyuxueyue/CAPP30239_FA22/blob/main/final_project/css">here</a>, including style.css file</li>
+<li>Find js folder <a href="https://github.com/lyuxueyue/CAPP30239_FA22/blob/main/final_project/js">here</a>, including 3 javascript files and 1 reference js file</li>
+<li>Find data folder <a href="https://github.com/lyuxueyue/CAPP30239_FA22/blob/main/final_project/data">here</a>, including 3 csv files and 1 geojson file</li>
 
 <h2>Storyline</h2>
 <p>
