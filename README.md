@@ -1,6 +1,12 @@
 # CAPP30239_FA22
 
 <h1>Final Project: Covid-19 Impact on Renewable Electricity</h1>
+<h2>Intro of the final project</h2>
+<li>Find index.html here </li>
+<li>Find css folder here</li>
+<li>Find js folder here</li>
+<li>Find data folder here</li>
+
 <h2>Storyline</h2>
 <p>
 Do you know the proportion of electricity coming from renewables that we consumed every day? 
